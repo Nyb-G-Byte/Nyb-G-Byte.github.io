@@ -11,7 +11,8 @@ body , html {
 	padding-top:0;
 	/*background: #170420;*/
 	/*background: #5d6891;*/
-	background: #805772;
+	/*background: #805772;*/
+	background: #ffaa5e;
 }
 
 img.bkg {
@@ -26,19 +27,21 @@ width: 40%
 /* Navigation bar */
 
 a:link {
-	color: #5d6891;
+	/*color: #5d6891;*/
+	color: #0d2b45;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #b65d83;
+	color: #203c56;
 	text-decoration: none;
 }
 
 div.nav {
 	width: 95%;
 	/*background: #A72B42;*/
-	background: #df5c84;
+	/*background: #df5c84;*/
+	background: #d08159;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
@@ -62,7 +65,7 @@ p.navt {
 	padding-left: 20px;
 	padding-right: 20px;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	color: #ffe27c;
+	color: #ffecd6;
 	font-size: 2em;
 	size: 75%;
 	flex: 1;
@@ -154,8 +157,8 @@ div.desc {
 
 div.back-wall {
 	width: 95%;
-	/*background: #FFD4A3;*/
-	background: #764365;
+	/*background: #8d697a;*/
+	background: #d08159;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
@@ -171,7 +174,6 @@ div.back-wall {
 	flex-basis: auto;
 	align-items: center;
 	justify-content: center;
-	box-shadow: -15px 15px #784c6b;
 }
 
 
@@ -230,8 +232,9 @@ height: 150px;
 grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 1;
-grid-row-end: 1;
+grid-row-end: 2;
 justify-self: stretch;
+border-radius: 25px;
 }
 
 .item-b {
@@ -242,8 +245,41 @@ grid-column-end: 3;
 grid-row-start: 3;
 grid-row-end: 4;
 justify-self: stretch;
+border-radius: 25px;
 }
 
+.item-c {
+width: 400px;
+height: 150px;
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+justify-self: stretch;
+border-radius: 25px;
+}
+
+.item-d {
+width: 150px;
+height: 150px;
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+justify-self: stretch;
+border-radius: 25px;
+}
+
+.item-e {
+width: 400px;
+height: 400px;
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+justify-self: stretch;
+border-radius: 25px;
+}
 
 /*   
 
