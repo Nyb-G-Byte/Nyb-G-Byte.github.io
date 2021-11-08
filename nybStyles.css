@@ -1,0 +1,187 @@
+
+/*
+h1 {
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+	}
+	
+p {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+*/
+
+/* Universal Styles */
+
+html {
+	background: #272744;
+	color: #fbf5ef;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+
+
+/* Main Styles */
+
+.pageWrap {
+	/*flex: 2;
+	width: 85vh;
+	background: #272744;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+	color: #fbf5ef;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 85vw;
+	display:flex;
+}
+
+
+/* Other Styles */
+
+ol {
+	list-style-position: inside;
+	padding-inline-start: 0px;
+
+}
+
+.pfp {
+	
+	float:left;
+	width: 5vw;
+}
+	
+
+/* Main Page Features */
+
+.mainWrap {
+	margin-left: 1vw;
+	flex: 69;
+	float:right;
+	background: #8b6d9c;
+	border-collapse: separate; 
+	border-radius: 25px;
+}
+
+.main {
+	margin-left: 7vw;
+	margin-right: 7vw;
+	width: 55vw;
+
+}
+
+/* Side Bar Features */
+
+.sideWrap {
+	display:flex;
+	flex-direction: column;
+	flex: 15;
+	float: left;
+	
+}
+
+.subSideWrap {
+	background: #494d7e;
+	border-collapse: separate; 
+	border-radius: 25px;
+	flex: 15;
+
+	
+}
+
+.sidebar {
+	margin-top: 1.5vw;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	width: 12vw;
+
+}
+
+/* Added top any sidebar with another sidebar below it */
+
+#top {
+ 	margin-bottom: 1vw
+ }
+
+/* Head-Bar Styles */
+
+.headWrap {
+	display:flex;
+	width: 85vw;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1vw;
+	background-color: #f2d3ab;
+	border-radius: 25px;
+}
+
+div.headText {
+
+	display:block;
+	flex: 1;
+	height: 100px;
+	float:center;
+	text-align:center;
+}
+
+h1.headText {
+	padding-top: 6px;
+	color: #272744;
+	transition: color, 1s;
+}
+
+h1.headText:hover {
+	color: #8b6d9c;
+}
+
+
+/* Image Styles */
+
+.galleryWrap {
+
+	border-radius: 25px;
+	background: #494d7e;
+	margin-left: auto;
+	margin-right: auto;
+	width: 39vw;
+	display:block;
+}
+
+.imageRow {
+	float:up;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 39vw;
+	height: 14vw;
+	display:float;
+}
+
+.imageWrap {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left:.5vw;
+	margin-right:.5vw;
+	float:left;
+	width:12vw;
+	height: 12vw;
+	display: block;
+
+}
+
+.art {
+	display:block;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+
+}
