@@ -152,23 +152,26 @@ h1.headText:hover {
 	background: #494d7e;
 	margin-left: auto;
 	margin-right: auto;
-	width: 39vw;
+	width: 40vw;
 	display:block;
 }
 
 .imageRow {
-	float:up;
+	margin-left: .5Vw;
+	margin-right: .5Vw;
+	width: 39vw;
+	height: 13vw;
+}
 
-	margin-left: auto;
-	margin-right: auto;
+.imageRow.Bottom {
+	margin-left: .5Vw;
+	margin-right: .5Vw;
 	width: 39vw;
 	height: 14vw;
-	display:float;
 }
 
 .imageWrap {
 	margin-top: 1vw;
-	margin-bottom: 1vw;
 	margin-left:.5vw;
 	margin-right:.5vw;
 	float:left;
@@ -178,10 +181,24 @@ h1.headText:hover {
 
 }
 
+.imageWrap.Bottom {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left:.5vw;
+	margin-right:.5vw;
+	float:left;
+	width:12vw;
+	height: 12vw;
+	display: block;
+}
+
+
+
 .art {
 	display:block;
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
+	border-radius: 25px;
 
 }
